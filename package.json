@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/devguru12/page-saver#readme",
   "dependencies": {
-    "google-it": "^1.5.0"
+    "fetch": "^1.1.0",
+    "google-it": "^1.5.0",
+    "sanitize-html": "^1.22.1"
   }
 }
