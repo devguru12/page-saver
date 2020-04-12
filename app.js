@@ -3,7 +3,7 @@ const fetchUrl = require("fetch").fetchUrl
 const sanitizeHtml = require('sanitize-html')
 const write = require('write')
 
-googleIt({'query': 'search terms'}).then(results => {
+googleIt({'query': 'search keyword'}).then(results => {
   results.forEach(result => {
     fetchUrl(result.link, function(error, meta, body) {
       if(body) {
